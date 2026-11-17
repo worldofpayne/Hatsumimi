@@ -16,8 +16,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/worldofpayne/hatsumimi"
-Issues = "https://github.com/worldofpayne/hatsumimi/issues"
+Homepage = "https://github.com/worldofpayne/Hatsumimi"
+Issues = "https://github.com/worldofpayne/Hatsumimi/issues"
 
 [project.scripts]
 hatsumimi = "hatsumimi.app.main:main"

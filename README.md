@@ -37,7 +37,7 @@ Hatsumimi sits in between. You watch with **no subtitles on screen**. When you m
 
 ### Windows
 
-1. Download **`Hatsumimi-windows.zip`** from the [latest release](https://github.com/worldofpayne/hatsumimi/releases/latest) and extract it anywhere.
+1. Download **`Hatsumimi-windows.zip`** from the [latest release](https://github.com/worldofpayne/Hatsumimi/releases/latest) and extract it anywhere.
 2. Install the two tools Hatsumimi uses for preparing videos:
    ```
    winget install Gyan.FFmpeg MKVToolNix.MKVToolNix
@@ -50,8 +50,8 @@ Optional: to add Start menu and desktop shortcuts, install from a copy of this r
 ### Arch Linux / Omarchy
 
 ```
-git clone https://github.com/worldofpayne/hatsumimi.git
-cd hatsumimi
+git clone https://github.com/worldofpayne/Hatsumimi.git
+cd Hatsumimi
 ./packaging/linux/install.sh
 ```
 
@@ -158,8 +158,8 @@ Next to your videos, a `.hatsumimi` folder remembers which Jimaku show each fold
 Requires [uv](https://docs.astral.sh/uv/).
 
 ```
-git clone https://github.com/worldofpayne/hatsumimi.git
-cd hatsumimi
+git clone https://github.com/worldofpayne/Hatsumimi.git
+cd Hatsumimi
 uv sync
 uv run hatsumimi            # run from source
 ```
