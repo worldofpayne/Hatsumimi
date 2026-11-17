@@ -1,0 +1,18 @@
+# Secrets - never commit
+API.txt
+
+# Sync-tool conflict copies (e.g. Proton Drive "(# Edit conflict ... #)")
+*Edit conflict*
+
+# Downloaded binaries (libmpv etc.)
+vendor/
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+
+# Per-folder working data (if a test video folder lands in the repo)
+.hatsumimi/

@@ -1,0 +1,35 @@
+[project]
+name = "hatsumimi"
+version = "0.1.0"
+description = "Learn Japanese by listening: watch without subtitles, check the lines when you pause"
+license = "GPL-3.0-or-later"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ffsubsync>=0.5.1",
+    "guessit>=4.5.1",
+    "httpx>=0.28.1",
+    "mpv>=1.0.8",
+    "platformdirs>=4.14.5",
+    "py7zr>=1.1.4",
+    "pyside6-essentials>=6.12.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/worldofpayne/hatsumimi"
+Issues = "https://github.com/worldofpayne/hatsumimi/issues"
+
+[project.scripts]
+hatsumimi = "hatsumimi.app.main:main"
+fetch-subs = "hatsumimi.fetch:main"
+install-mpv-script = "hatsumimi.install_mpv:main"
+hatsumimi-dict = "hatsumimi.dictionary.build:main"
+
+[build-system]
+requires = ["uv_build>=0.11.18,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.22.3",
+]
